@@ -12,6 +12,11 @@ header button:focus {
     outline: none;
 }
 #home{
+	height: 969px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#homeFull{
 	min-height: 969px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -317,7 +322,15 @@ button:focus{
 	.margin{
 		margin-top: 20px;
 	}
+	#home{
+		height: 700px;
+	}
+	.margin-author{
+	margin-top: 100px;
 }
+.home-text{
+		margin-top: 100px;
+	}
 @media only screen and (max-width: 420px){
 	footer h2{
 		font-size: 1.5rem;
@@ -339,4 +352,7 @@ button:focus{
 	.margin{
 		margin-top: 5px;
 	}
+	.margin-author{
+	margin-top: 90px;
+}
 }

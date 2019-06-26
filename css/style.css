@@ -298,7 +298,11 @@ button:focus{
 }
 
 
-
+@media only screen and (max-width: 1400px){
+	.home-text{
+		margin-top: 230px;
+	}
+}
 @media only screen and (max-width: 1200px){
 	.text{
 		font-size: 20px;
@@ -307,7 +311,7 @@ button:focus{
 		margin-top: 70px;
 	}
 	.home-text{
-		margin-top: 200px;
+		margin-top: 170px;
 	}
 }
 @media only screen and (max-width: 991px){
@@ -315,7 +319,7 @@ button:focus{
 		text-align: center;
 	}
 	.home-text{
-		margin-top: 150px;
+		margin-top: 130px;
 	}
 }
 @media only screen and (max-width: 700px){

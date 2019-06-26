@@ -306,10 +306,16 @@ button:focus{
 	.margin{
 		margin-top: 70px;
 	}
+	.home-text{
+		margin-top: 200px;
+	}
 }
 @media only screen and (max-width: 991px){
 	.center{
 		text-align: center;
+	}
+	.home-text{
+		margin-top: 150px;
 	}
 }
 @media only screen and (max-width: 700px){
@@ -328,13 +334,14 @@ button:focus{
 	.margin-author{
 	margin-top: 100px;
 }
-.home-text{
-		margin-top: 100px;
-	}
+
 @media only screen and (max-width: 420px){
 	footer h2{
 		font-size: 1.5rem;
 		margin-top: 10px;
+	}
+	.home-text{
+		margin-top: 100px;
 	}
 	#rgbaFooter{
 		padding-top: 10px;
